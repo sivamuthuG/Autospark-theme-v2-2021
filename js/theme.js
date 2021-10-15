@@ -42,7 +42,7 @@ $(document).ready(function() {
         removeHeader();
         removeIconText();
         $('.header,.toolmenu').addClass(black);
-        $('.iconText,.nameText,.reviewIcon,.macineIcon').addClass(white);
+        $('.iconText,.nameText,.reviewIcon,.macineIcon,.moreIcon').addClass(white);
 
 
     });
@@ -52,7 +52,7 @@ $(document).ready(function() {
         removeHeader();
         removeIconText();
         $('.header,.toolmenu').addClass(gray);
-        $('.iconText,.nameText,.reviewIcon,.macineIcon').addClass(lightGrey);
+        $('.iconText,.nameText,.reviewIcon,.macineIcon,.moreIcon').addClass(lightGrey);
 
     });
 
@@ -61,7 +61,7 @@ $(document).ready(function() {
         removeHeader();
         removeIconText();
         $('.header,.toolmenu').addClass(orange);
-        $('.iconText,.nameText,.reviewIcon,.macineIcon').addClass(textOrange);
+        $('.iconText,.nameText,.reviewIcon,.macineIcon,.moreIcon').addClass(textOrange);
 
     });
 
@@ -77,9 +77,9 @@ $(document).ready(function() {
 
     function removeIconText() {
 
-        $('.iconText,.nameText,.reviewIcon,.macineIcon').removeClass(white);
-        $('.iconText,.nameText,.reviewIcon,.macineIcon').removeClass(lightGrey);
-        $('.iconText,.nameText,.reviewIcon,.macineIcon').removeClass(textOrange);
+        $('.iconText,.nameText,.reviewIcon,.macineIcon,.moreIcon').removeClass(white);
+        $('.iconText,.nameText,.reviewIcon,.macineIcon,.moreIcon').removeClass(lightGrey);
+        $('.iconText,.nameText,.reviewIcon,.macineIcon,.moreIcon').removeClass(textOrange);
     }
 
 
